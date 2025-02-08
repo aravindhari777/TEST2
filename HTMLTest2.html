@@ -78,16 +78,19 @@
     <br>
 
     <!-- Select tag -->
-    <label for="Country">Country:</label>
-    <select name="Countries" id="Countries">
-     <option value="Select">Select</option>   
-    <option value="India">India</option>
-    <option value="Russia">Russia</option>
-    <option value="Austrila">Austrila</option>
-    <option value="USA">USA</option>
+    <form>
+        <label for="Country">Country:</label>
+        <select name="Countries" id="Countries">
+        <option value="Select">Select</option>   
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="Austrila">Austrila</option>
+        <option value="USA">USA</option>
    </select>
+    </form>
+    <br>
 
-    <!--Multiple Checkbox elements-->
+    <!-- Checkbox elements-->
     <form>
         <!--heading tag-->
         <h2>Select your favorite programming languages:</h2>
@@ -106,6 +109,29 @@
         <button type="submit">Submit</button>
     </form>
 
+    <br><br>
+
+    <!-- Radio buttons -->
+    <form>
+        <h2>feedback Form</h2>
+        <input type="radio" id="rating1" name="rating" value="1">
+        <label for="rating1">1</label>
+
+        <input type="radio" id="rating2" name="rating" value="2">
+        <label for="rating2">2</label>
+
+        <input type="radio" id="rating3" name="rating" value="3">
+        <label for="rating3">3</label>
+
+        <input type="radio" id="rating4" name="rating" value="4">
+        <label for="rating4">4</label>
+
+        <input type="radio" id="rating5" name="rating" value="5">
+        <label for="rating5">5</label>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
 
 
 </body>
